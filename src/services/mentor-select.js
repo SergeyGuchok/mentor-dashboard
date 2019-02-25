@@ -11,12 +11,11 @@ export class MentorSelect extends Component {
         // making options array to send to Select component
         const options = [];
 
-        for (let key in this.props.options.default.mentors) {
+        for (let key in this.props.options) {
           options.push({
             value: key, label: key.toString()
           })
         }
-        console.log(options);
         this.options = options;
       }
     render() {

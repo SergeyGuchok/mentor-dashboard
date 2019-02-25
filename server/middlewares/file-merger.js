@@ -23,6 +23,7 @@ module.exports = function fileMerger(req, res, next) {
 
     // remove columns name
     students.shift();
+    mentorScore.shift();
 
     // filling final object with mentors and their students
     students.forEach(pair => {
@@ -32,8 +33,7 @@ module.exports = function fileMerger(req, res, next) {
         }
         if (finalObject.mentors[pair[0].toLowerCase()]) {
             finalObject.mentors[pair[0].toLowerCase()].students.push({
-                studentName: constants.githubLink.concat(pair[1]),
-                tasks: {}
+                studentName: constants.githubLink.concat(pair[1])
             });
         } else {
             finalObject.mentors[pair[0].toLowerCase()] = {
@@ -93,19 +93,20 @@ module.exports = function fileMerger(req, res, next) {
         finalObject.tasks.push(taskInfo);
     });
 
+    
+
     mentorScore.forEach(score => {
         if (!scoreObject[score[1]]) {
-            scoreObject[score[1]] = {
-                students: [{
+            scoreObject[score[1].trim()] = 
+                [{
                     student: score[2],
                     tasks: {
                         task: score[3],
                         score: score[5],
                     }
                 }]
-            }
         } else {
-            scoreObject[score[1]].students.push({
+            scoreObject[score[1].trim()].push({
                 student: score[2],
                 tasks: {
                     task: score[3],
@@ -116,9 +117,8 @@ module.exports = function fileMerger(req, res, next) {
     })
 
     finalObject.score = scoreObject;
-    console.log(scoreObject);
 
-    fs.writeFile(path.resolve('../text.json'), JSON.stringify(finalObject, null, 4), (err) => {
+    fs.writeFile(path.resolve('../data.json'), JSON.stringify(finalObject, null, 4), (err) => {
         if (err) {
             console.log(err);
         }

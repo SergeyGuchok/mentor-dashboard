@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
-import * as json from './text.json';
+import * as json from './data.json';
 import { MentorSelect } from './services/mentor-select';
 import { MentorTable } from './services/mentor-table';
+import Legend from './services/legend';
+import './app.css';
+import './reset.css';
 
 
 class App extends Component {
@@ -11,13 +14,15 @@ class App extends Component {
 
   handleChange = (selectedOption) => {
     this.setState({ selectedOption });
+    console.log(this.state);
   }
-
   render() {
     return (
-      <div>
-        <MentorSelect onChange={this.handleChange} options={json} value={this.state.selectedOption} />
-      </div>
+      <main className="main">
+        <MentorSelect onChange={this.handleChange} options={json.mentors} value={this.state.selectedOption} />
+        <MentorTable data={json} mentor={this.state.selectedOption}/>
+        <Legend />
+      </main>
     )
   }
 }
