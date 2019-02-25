@@ -1,28 +1,27 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import * as json from './text.json';
+import { MentorSelect } from './services/mentor-select';
+import { MentorTable } from './services/mentor-table';
+
 
 class App extends Component {
+  state = {
+    selectedOption: null,
+  }
+
+  handleChange = (selectedOption) => {
+    this.setState({ selectedOption });
+  }
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+        <MentorSelect onChange={this.handleChange} options={json} value={this.state.selectedOption} />
       </div>
-    );
+    )
   }
 }
+
+
 
 export default App;
