@@ -3109,13 +3109,13 @@
             "statusText": "Checked"
         },
         {
-            "taskName": "Code Jam \"CoreJS\" ",
+            "taskName": "Code Jam \"CoreJS\"",
             "taskLink": "https://github.com/rolling-scopes-school/tasks/blob/2018-Q3/tasks/codejam-corejs.md",
             "taskStatus": "Checked",
             "statusText": "Checked"
         },
         {
-            "taskName": "Code Jam \"DOM, DOM Events\" ",
+            "taskName": "Code Jam \"DOM, DOM Events\"",
             "taskLink": "https://github.com/rolling-scopes-school/tasks/blob/2018-Q3/tasks/codejam-notification.md",
             "taskStatus": "Checked",
             "statusText": "Checked"
@@ -3127,7 +3127,7 @@
             "statusText": "Checking"
         },
         {
-            "taskName": "RS Activist - ",
+            "taskName": "RS Activist -",
             "taskLink": "https://github.com/rolling-scopes-school/tasks/blob/2018-Q3/tasks/rs-school-activist.md",
             "taskStatus": "In Progress",
             "statusText": "In progress"
@@ -9480,6 +9480,69 @@
             {
                 "student": "https://github.com/kozyritskiy",
                 "tasks": {
+                    "task": "Markup #1",
+                    "score": 90
+                }
+            },
+            {
+                "student": "https://github.com/kozyritskiy",
+                "tasks": {
+                    "task": "Code Jam \"CV\"",
+                    "score": 50
+                }
+            },
+            {
+                "student": "https://github.com/kozyritskiy",
+                "tasks": {
+                    "task": "Code Jam \"CoreJS\"",
+                    "score": 110
+                }
+            },
+            {
+                "student": "https://github.com/nastyalo",
+                "tasks": {
+                    "task": "Code Jam \"CV\"",
+                    "score": 100
+                }
+            },
+            {
+                "student": "https://github.com/nastyalo",
+                "tasks": {
+                    "task": "Code Jam \"CoreJS\"",
+                    "score": 110
+                }
+            },
+            {
+                "student": "https://github.com/nastyalo",
+                "tasks": {
+                    "task": "Code Jam \"DOM, DOM Events\"",
+                    "score": 100
+                }
+            },
+            {
+                "student": "https://github.com/kozyritskiy",
+                "tasks": {
+                    "task": "Code Jam \"DOM, DOM Events\"",
+                    "score": 85
+                }
+            },
+            {
+                "student": "https://github.com/nastyalo",
+                "tasks": {
+                    "task": "Markup #1",
+                    "score": 85
+                }
+            },
+            {
+                "student": "https://github.com/nastyalo",
+                "tasks": {
+                    "task": "YouTube",
+                    "score": 50
+                }
+            },
+            {
+                "student": "https://github.com/kozyritskiy",
+                "tasks": {
                     "task": "YouTube",
                     "score": 65
                 }
@@ -10950,7 +11013,7 @@
                 }
             },
             {
-                "student": " https://github.com/JuliaMV",
+                "student": "https://github.com/JuliaMV",
                 "tasks": {
                     "task": "Presentation",
                     "score": 120
@@ -12007,7 +12070,7 @@
                 }
             },
             {
-                "student": " https://github.com/rolling-scopes-school/renardby-2018Q3",
+                "student": "https://github.com/rolling-scopes-school/renardby-2018Q3",
                 "tasks": {
                     "task": "Code Jam \"DOM, DOM Events\"",
                     "score": 72
@@ -12999,6 +13062,90 @@
             {
                 "student": "https://github.com/Simaxa7",
                 "tasks": {
+                    "task": "Code Jam \"CV\"",
+                    "score": 100
+                }
+            },
+            {
+                "student": "https://github.com/PolinaMoiseyenko",
+                "tasks": {
+                    "task": "Code Jam \"CV\"",
+                    "score": 87
+                }
+            },
+            {
+                "student": "https://github.com/PolinaMoiseyenko",
+                "tasks": {
+                    "task": "Code Jam \"CV\"",
+                    "score": 87
+                }
+            },
+            {
+                "student": "https://github.com/PolinaMoiseyenko",
+                "tasks": {
+                    "task": "Code Jam \"CoreJS\"",
+                    "score": 104
+                }
+            },
+            {
+                "student": "https://github.com/Simaxa7",
+                "tasks": {
+                    "task": "Code Jam \"CoreJS\"",
+                    "score": 110
+                }
+            },
+            {
+                "student": "https://github.com/PolinaMoiseyenko",
+                "tasks": {
+                    "task": "Markup #1",
+                    "score": 80
+                }
+            },
+            {
+                "student": "https://github.com/Simaxa7",
+                "tasks": {
+                    "task": "Markup #1",
+                    "score": 100
+                }
+            },
+            {
+                "student": "https://github.com/PolinaMoiseyenko",
+                "tasks": {
+                    "task": "Code Jam \"DOM, DOM Events\"",
+                    "score": 75
+                }
+            },
+            {
+                "student": "https://github.com/Simaxa7",
+                "tasks": {
+                    "task": "Code Jam \"DOM, DOM Events\"",
+                    "score": 94
+                }
+            },
+            {
+                "student": "https://github.com/polinamoiseyenko",
+                "tasks": {
+                    "task": "YouTube",
+                    "score": 86
+                }
+            },
+            {
+                "student": "https://github.com/simaxa7",
+                "tasks": {
+                    "task": "YouTube",
+                    "score": 115
+                }
+            },
+            {
+                "student": "https://github.com/polinamoiseyenko",
+                "tasks": {
+                    "task": "Presentation",
+                    "score": 120
+                }
+            },
+            {
+                "student": "https://github.com/Simaxa7",
+                "tasks": {
                     "task": "Presentation",
                     "score": 120
                 }
@@ -13153,7 +13300,7 @@
                 }
             },
             {
-                "student": "https://github.com/sergey496 ",
+                "student": "https://github.com/sergey496",
                 "tasks": {
                     "task": "RS Activist",
                     "score": 25
@@ -13195,7 +13342,7 @@
                 }
             },
             {
-                "student": "https://github.com/Tatsianacs ",
+                "student": "https://github.com/Tatsianacs",
                 "tasks": {
                     "task": "RS Activist",
                     "score": 25
@@ -15926,6 +16073,48 @@
         ],
         "https://github.com/kirillpanov": [
             {
+                "student": "https://github.com/jeka98",
+                "tasks": {
+                    "task": "Markup #1",
+                    "score": 76
+                }
+            },
+            {
+                "student": "https://github.com/Horoshaya",
+                "tasks": {
+                    "task": "Markup #1",
+                    "score": 77
+                }
+            },
+            {
+                "student": "https://github.com/sergeyguchok",
+                "tasks": {
+                    "task": "Markup #1",
+                    "score": 82
+                }
+            },
+            {
+                "student": "https://github.com/uivgray",
+                "tasks": {
+                    "task": "Markup #1",
+                    "score": 50
+                }
+            },
+            {
+                "student": "https://github.com/aliaksandrlosich",
+                "tasks": {
+                    "task": "Markup #1",
+                    "score": 72
+                }
+            },
+            {
+                "student": "https://github.com/renardby",
+                "tasks": {
+                    "task": "Markup #1",
+                    "score": 72
+                }
+            },
+            {
                 "student": "https://github.com/aytsaN",
                 "tasks": {
                     "task": "Markup #1",
@@ -16208,7 +16397,7 @@
         ],
         "https://github.com/Shank111": [
             {
-                "student": " https://github.com/KirillFilipp",
+                "student": "https://github.com/KirillFilipp",
                 "tasks": {
                     "task": "Code Jam \"CV\"",
                     "score": 90
@@ -16229,7 +16418,7 @@
                 }
             },
             {
-                "student": " https://github.com/KirillFilipp",
+                "student": "https://github.com/KirillFilipp",
                 "tasks": {
                     "task": "Code Jam \"DOM, DOM Events\"",
                     "score": 20

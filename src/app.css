@@ -66,6 +66,10 @@
     width: 100%;
 }
 
+.table td:not(:first-of-type) {    
+    max-width: 100px;
+}
+
 .legend {
     margin-top: 15px;
 }

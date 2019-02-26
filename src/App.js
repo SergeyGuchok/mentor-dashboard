@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import * as json from './data.json';
 import { MentorSelect } from './services/mentor-select';
 import { MentorTable } from './services/mentor-table';
-import Legend from './services/legend';
+import Legend from './presentational/legend';
 import './app.css';
 import './reset.css';
 
@@ -14,7 +14,6 @@ class App extends Component {
 
   handleChange = (selectedOption) => {
     this.setState({ selectedOption });
-    console.log(this.state);
   }
   render() {
     return (
@@ -26,7 +25,5 @@ class App extends Component {
     )
   }
 }
-
-
 
 export default App;

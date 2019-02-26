@@ -20,14 +20,13 @@ export default function TableColumn(props) {
         default:
             className = 'white-colored';
     }
-    
+
     const link = json.mentors[props.mentor].mentorGitHub;
     let newStudentsArray = json.score[link];
 
     if (!newStudentsArray) {
         return (<td className="white-colored"></td>)
     }
-
 
     // finding a right person that suit for Student Name and Task Name
     newStudentsArray = newStudentsArray.filter(obj => obj.student === props.student.studentName);

@@ -18,7 +18,6 @@ export class MentorTable extends Component {
                             <FirstRow mentor={this.props.mentor.value} />
                             {
                                 this.tasks.map((task, index) => {
-                                    console.log(task);
                                     return <TableRow key={index} task={task} mentor={this.props.mentor.value} />
                                 })
                             }
