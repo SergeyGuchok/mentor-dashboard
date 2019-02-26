@@ -9,13 +9,15 @@ import './reset.css';
 
 class App extends Component {
   state = {
-    selectedOption: null,
+    selectedOption: JSON.parse(localStorage.getItem('mentor')) || null,
   }
 
   handleChange = (selectedOption) => {
+    localStorage.setItem('mentor', JSON.stringify(selectedOption));
     this.setState({ selectedOption });
   }
   render() {
+    console.log(this.state);
     return (
       <main className="main">
         <MentorSelect onChange={this.handleChange} options={json.mentors} value={this.state.selectedOption} />
